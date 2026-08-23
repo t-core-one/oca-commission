@@ -4,12 +4,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-04-13 12:45+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"PO-Revision-Date: 2026-03-12 12:45+0000\n"
+"Last-Translator: davidbeckercbl <becker@cbl-computer.de>\n"
 "Language-Team: none\n"
-"Language: it\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -19,342 +19,344 @@ msgstr ""
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__active
 msgid "Active"
-msgstr "Attivo"
+msgstr "Aktiv"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model,name:sale_commission_product_criteria.model_account_invoice_line_agent
 msgid "Agent detail of commission line in invoice lines"
-msgstr "Dettaglio riga provvigione agente nelle righe fattura"
+msgstr ""
+"Provisionsempfänger-Detail zu Provisionsposition mit Bezug zur "
+"Rechnungsposition"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model,name:sale_commission_product_criteria.model_sale_order_line_agent
 msgid "Agent detail of commission line in order lines"
-msgstr "Dettaglio riga provvigione agente nelle righe ordine"
+msgstr "Provisionsempfängerdetails der Provisionszeile in Auftragszeilen"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__applied_on__3_global
 #, python-format
 msgid "All Products"
-msgstr "Tutti i prodotti"
+msgstr "Alle Produkte"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Amount (%)"
-msgstr "Importo (%)"
+msgstr "Betrag (%)"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Amount (fixed)"
-msgstr "Importo (fisso)"
+msgstr "Betrag (fix)"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__based_on__sol
 msgid "Any Sale Order Line"
-msgstr "Qualsiasi riga ordine di vendita"
+msgstr "Jegliche Verkaufsauftragszeile"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_account_invoice_line_agent__applied_commission_id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_line_mixin__applied_commission_id
+#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_line_mixin__applied_commission_id
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__applied_commission_id
 msgid "Applied Commission"
-msgstr "Provvigione applicata"
+msgstr "Angewandte Provision"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_account_invoice_line_agent__applied_commission_item_id
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__applied_commission_item_id
 msgid "Applied Commission Item"
-msgstr "Riga provvigione applicata"
+msgstr "Angewandte Provisionsposition"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Applied Disc. (%)"
-msgstr "Sc. applicato (%)"
+msgstr "Angewendeter Rabatt (%)"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.sale_commission_form_lines_mod
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Applied On"
-msgstr "Applicato a"
+msgstr "Angewendet auf"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__applied_on
 msgid "Apply On"
-msgstr "Applica a"
+msgstr "Anwenden auf"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__based_on
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__based_on
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Based On"
-msgstr "Basato su"
+msgstr "Basierend auf"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid "Category: %s"
-msgstr "Categoria: %s"
+msgstr "Kategorie: %s"
 
 #. module: sale_commission_product_criteria
+#: model:ir.model,name:sale_commission_product_criteria.model_commission
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_account_invoice_line_agent__commission_id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_line_mixin__commission_id
+#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__commission_id
+#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_line_mixin__commission_id
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__commission_id
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_search
 msgid "Commission"
-msgstr "Provvigione"
+msgstr "Provision"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_form_view
 msgid "Commission Computation"
-msgstr "Calcolo provvigione"
+msgstr "Provisionsberechnung"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model,name:sale_commission_product_criteria.model_commission_item
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_form_view
 msgid "Commission Item"
-msgstr "Riga provvigione"
+msgstr "Provisionsposition"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,help:sale_commission_product_criteria.field_commission_item__applied_on
 msgid "Commission Item applicable on selected option"
-msgstr "Riga provvigione applicabile all'opzione selezionata"
+msgstr ""
 
 #. module: sale_commission_product_criteria
 #: model:ir.actions.act_window,name:sale_commission_product_criteria.commission_item_action
 #: model:ir.actions.act_window,name:sale_commission_product_criteria.commission_item_action_tree
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_search
-#: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_tree_view
 msgid "Commission Items"
-msgstr "Righe provvigione"
+msgstr ""
 
 #. module: sale_commission_product_criteria
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__commission_id
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__commission_type
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__commission_type
 msgid "Commission Type"
-msgstr "Tipo di provvigione"
+msgstr "Provisionstyp"
 
 #. module: sale_commission_product_criteria
 #: model:ir.ui.menu,name:sale_commission_product_criteria.menu_sale_commissions_items
 msgid "Commission Type Items"
-msgstr "Righe tipi di provvigione"
-
-#. module: sale_commission_product_criteria
-#: model:ir.model,name:sale_commission_product_criteria.model_sale_commission
-msgid "Commission in sales"
-msgstr "Provvigione nelle vendite"
+msgstr ""
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__company_id
 msgid "Company"
-msgstr "Azienda"
+msgstr "Firma"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_form_view
 msgid "Compute Price"
-msgstr "Calcola prezzo"
+msgstr "Preis berechnen"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__create_uid
 msgid "Created by"
-msgstr "Creato da"
+msgstr "Erstellt von"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__create_date
 msgid "Created on"
-msgstr "Creato il"
+msgstr "Erstellt am"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__currency_id
 msgid "Currency"
-msgstr "Valuta"
+msgstr "Währung"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__discount
 msgid "Discount (%)"
-msgstr "Sconto (%)"
+msgstr "Rabatt (%)"
 
 #. module: sale_commission_product_criteria
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_account_invoice_line_agent__display_name
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__display_name
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission__display_name
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_line_mixin__display_name
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_settlement_line__display_name
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line__display_name
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__display_name
 msgid "Display Name"
-msgstr "Nome visualizzato"
+msgstr "Anzeigname"
+
+#. module: sale_commission_product_criteria
+#: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_order_agent_form_inherit_sale_commission_product_criteria_mod
+msgid "Edit agents"
+msgstr "Provisionsempfänger bearbeiten"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,help:sale_commission_product_criteria.field_commission_item__name
 #: model:ir.model.fields,help:sale_commission_product_criteria.field_sale_order_line_agent__applied_on_name
 msgid "Explicit rule name for this commission line."
-msgstr "Nome esplicito regola per questa riga provvigione."
+msgstr "Expliziter Regelname für diese Provisionszeile."
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Final Amount"
-msgstr "Importo finale"
+msgstr "Endbetrag"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__commission_type__fixed
 msgid "Fixed"
-msgstr "Fisso"
+msgstr "Fixiert"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__fixed_amount
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__fixed_amount
 msgid "Fixed Amount"
-msgstr "Importo fisso"
+msgstr "Fester Betrag"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.commission_item_search
 msgid "Group By"
-msgstr "Raggruppa per"
+msgstr "Gruppieren nach"
 
 #. module: sale_commission_product_criteria
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_account_invoice_line_agent__id
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission__id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_line_mixin__id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_settlement_line__id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line__id
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__id
 msgid "ID"
 msgstr "ID"
 
 #. module: sale_commission_product_criteria
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission__item_ids
+#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission__item_ids
 msgid "Item"
-msgstr "Riga"
+msgstr ""
 
 #. module: sale_commission_product_criteria
-#: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.sale_commission_form_lines_mod
-msgid "Items"
-msgstr "Righe"
-
-#. module: sale_commission_product_criteria
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_account_invoice_line_agent____last_update
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item____last_update
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission____last_update
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_line_mixin____last_update
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission_settlement_line____last_update
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line____last_update
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent____last_update
 msgid "Last Modified on"
-msgstr "Ultima modifica il"
+msgstr "Zuletzt bearbeitet am"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__write_uid
 msgid "Last Updated by"
-msgstr "Ultimo aggiornamento di"
+msgstr "Zuletzt geändert am"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__write_date
 msgid "Last Updated on"
-msgstr "Ultimo aggiornamento il"
+msgstr "Zuletzt aktualisiert am"
 
 #. module: sale_commission_product_criteria
-#: model:ir.model,name:sale_commission_product_criteria.model_sale_commission_settlement_line
+#: model:ir.model,name:sale_commission_product_criteria.model_commission_settlement_line
 msgid "Line of a commission settlement"
-msgstr "Riga di liquidazione provvigione"
+msgstr "Zeile einer Provisionsabrechnung"
 
 #. module: sale_commission_product_criteria
-#: model:ir.model,name:sale_commission_product_criteria.model_sale_commission_line_mixin
+#: model:ir.model,name:sale_commission_product_criteria.model_commission_line_mixin
 msgid ""
 "Mixin model for having commission agent lines in any object inheriting from "
 "this one"
 msgstr ""
-"Modello mixin per avere righe di provvigione agente in qualsiasi oggetto che "
-"erediti dall'attuale"
+"Mixin-Modell für die Verwaltung von Provisionsempfänger-Positionen in "
+"beliebigen Objekten, die von diesem Modell erben"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__name
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__applied_on_name
 msgid "Name"
-msgstr "Nome"
+msgstr "Bezeichnung"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__commission_type__percentage
 msgid "Percentage"
-msgstr "Percentuale"
+msgstr "Prozentsatz"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__percent_amount
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_order_line_agent__percent_amount
 msgid "Percentage Amount"
-msgstr "Importo percentuale"
+msgstr "Prozentsatz Betrag"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid "Please specify the category for which this rule should be applied"
 msgstr ""
-"Specifica la categoria per la quale questa regola deve essere applicata"
+"Bitte legen Sie die Kategorie fest, für die diese Regel angewendet werden "
+"soll"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid "Please specify the product for which this rule should be applied"
-msgstr "Specifica il prodotto per la quale questa regola deve essere applicata"
+msgstr ""
+"Bitte legen Sie das Produkt fest, für das diese Regel angewendet werden soll"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid ""
 "Please specify the product variant for which this rule should be applied"
 msgstr ""
-"Specifica la variante prodotto per la quale questa regola deve essere "
-"applicata"
+"Bitte legen Sie die Produktvariante fest, für die diese Regel angewendet "
+"werden soll"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.view_sale_order_line_tree_mod
 msgid "Price Type"
-msgstr "Tipo prezzo"
+msgstr "Preistyp"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__product_tmpl_id
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__applied_on__1_product
 msgid "Product"
-msgstr "Prodotto"
+msgstr "Produkt"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__categ_id
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__applied_on__2_product_category
 msgid "Product Category"
-msgstr "Categoria prodotto"
+msgstr "Produktkategorie"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__product_id
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission_item__applied_on__0_product_variant
 msgid "Product Variant"
-msgstr "Variante prodotto"
+msgstr "Produktvariante"
 
 #. module: sale_commission_product_criteria
-#: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__sale_commission__commission_type__product
+#: model:ir.model.fields.selection,name:sale_commission_product_criteria.selection__commission__commission_type__product
 msgid "Product criteria"
-msgstr "Criteri prodotto"
+msgstr "Produktkriterium"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid "Product: %s"
-msgstr "Prodotto: %s"
+msgstr "Produkt: %s"
 
 #. module: sale_commission_product_criteria
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria.sale_commission_form_lines_mod
 msgid "Rules"
-msgstr "Regole"
+msgstr "Regeln"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model,name:sale_commission_product_criteria.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Riga ordine di vendita"
+msgstr "Verkaufsauftragszeile"
+
+#. module: sale_commission_product_criteria
+#: model:ir.model.fields,help:sale_commission_product_criteria.field_commission__commission_type
+msgid ""
+"Select the percentage type of the commission:\n"
+"* 'Fixed percentage': all commissions are computed with a fixed percentage. You can fill the percentage in the field \"Fixed percentage\".\n"
+"* 'By sections': percentage varies depending amount intervals. You can fill intervals and percentages in the section \"Rate definition\"."
+msgstr ""
+"Wählen Sie den Provisions-Prozenttyp aus:\n"
+"* 'Fester Prozentsatz': Alle Provisionen werden mit einem festen Prozentsatz "
+"berechnet. Den Prozentsatz können Sie im Feld \"Fester Prozentsatz\" "
+"eintragen.\n"
+"* 'Nach Abschnitten': Der Prozentsatz variiert je nach Betragsintervallen. "
+"Die Intervalle und Prozentsätze können Sie im Abschnitt \"Satzdefinition\" "
+"eintragen."
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__sequence
 msgid "Sequence"
-msgstr "Sequenza"
+msgstr "Reihenfolge"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,help:sale_commission_product_criteria.field_commission_item__categ_id
@@ -362,9 +364,9 @@ msgid ""
 "Specify a product category if this rule only applies to products belonging "
 "to this category or its children categories. Keep empty otherwise."
 msgstr ""
-"Specificare una categoria prodotto se questa regola si applica solo ai "
-"prodotti appartenenti a questa categoria o alle sue categorie figlie, "
-"altrimenti lasciare vuoto."
+"Geben Sie eine Produktkategorie an, wenn diese Regel nur für Produkte gilt, "
+"die zu dieser Kategorie oder ihren Unterkategorien gehören. Andernfalls "
+"freilassen."
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,help:sale_commission_product_criteria.field_commission_item__product_id
@@ -372,8 +374,8 @@ msgid ""
 "Specify a product if this rule only applies to one product. Keep empty "
 "otherwise."
 msgstr ""
-"Specificare un prodotto se questa regola si applica solo ad un prodotto, "
-"altrimenti lasciare vuoto."
+"Geben Sie ein Produkt an, wenn diese Regel nur für ein bestimmtes Produkt "
+"gilt. Andernfalls freilassen."
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,help:sale_commission_product_criteria.field_commission_item__product_tmpl_id
@@ -381,47 +383,44 @@ msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
 msgstr ""
-"Specificare un modello prodotto se questa regola si applica solo ad un "
-"modello prodotto, altrimenti lasciare vuoto."
+"Geben Sie eine Produktvorlage an, wenn diese Regel nur für eine bestimmte "
+"Produktvorlage gilt. Andernfalls freilassen."
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid ""
 "There is done Sale Orders with this commission. Commission type change is "
 "not allowed."
 msgstr ""
-"Esistono ordini di vendita che usano questo tipo di provvigione. Non è "
-"possibile modificare il tipo."
+"Es gibt erledigte Verkaufsaufträge in dieser Provision. Ein Ändern des "
+"Provisionstyps ist nicht erlaubt."
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid ""
 "There is posted Account Move Lines with this commission. Commission type "
 "change is not allowed."
 msgstr ""
-"Esistono righe fattura che usano questo tipo di provvigione. Non è possibile "
-"modificare il tipo."
+"Es existieren bereits gebuchte Buchungszeilen mit dieser Provision. Eine "
+"Änderung des Provisionstyps ist nicht zulässig."
 
 #. module: sale_commission_product_criteria
-#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_sale_commission__commission_type
+#: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission__commission_type
 msgid "Type"
-msgstr "Tipo"
+msgstr "Typ"
 
 #. module: sale_commission_product_criteria
 #: model:ir.model.fields,field_description:sale_commission_product_criteria.field_commission_item__commission_value
 msgid "Value"
-msgstr "Valore"
+msgstr "Wert"
 
 #. module: sale_commission_product_criteria
+#. odoo-python
 #: code:addons/sale_commission_product_criteria/models/commission.py:0
 #, python-format
 msgid "Variant: %s"
 msgstr "Variante: %s"
-
-#~ msgid "Pricelist"
-#~ msgstr "Listino prezzi"
-
-#~ msgid "Use Pricelist"
-#~ msgstr "Usa listino prezzi"

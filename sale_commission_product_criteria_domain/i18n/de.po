@@ -6,160 +6,161 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-03-31 19:45+0000\n"
-"Last-Translator: \"Rodrigo A. Madureira\" <rodrigomadu85@gmail.com>\n"
+"PO-Revision-Date: 2026-03-12 12:45+0000\n"
+"Last-Translator: davidbeckercbl <becker@cbl-computer.de>\n"
 "Language-Team: none\n"
-"Language: pt_BR\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.15.2\n"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__agent_id
 msgid "Agent"
-msgstr "Vendedor"
+msgstr "Provisionsempfänger"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__agent_group_ids
 msgid "Agent Group"
-msgstr "Grupo de Vendedores"
+msgstr "Provisionsempfängergruppe"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_account_invoice_line_agent
 msgid "Agent detail of commission line in invoice lines"
 msgstr ""
-"Detalhes do vendedor referentes à linha de comissão nas linhas da fatura"
+"Provisionsempfänger-Detail zu Provisionsposition mit Bezug zur "
+"Rechnungsposition"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_sale_order_line_agent
 msgid "Agent detail of commission line in order lines"
-msgstr "Detalhes do vendedor na linha de comissão das linhas de pedido"
+msgstr "Provisionsempfängerdetails der Provisionszeile in Auftragszeilen"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__partner_agent_ids
 #: model_terms:ir.ui.view,arch_db:sale_commission_product_criteria_domain.commission_items_group_form
 msgid "Agents"
-msgstr "Vendedores"
+msgstr "Provisionsempfänger"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__agents_count
 msgid "Agents Count"
-msgstr "Contagem de Vendedores"
+msgstr "Anzahl Provisionsempfänger"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_partner__allowed_commission_group_ids
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_users__allowed_commission_group_ids
 msgid "Allowed Commission Group"
-msgstr "Grupo de Comissão Permitida"
+msgstr "Erlaubte Provisionsgruppe"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_partner__allowed_commission_group_ids_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_users__allowed_commission_group_ids_domain
 msgid "Allowed Commission Group Ids Domain"
-msgstr "Ids Domínio Grupo de Comissão Permitida"
+msgstr "Filter erlaubte Provisionsgruppe"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_partner__apply_commission_restrictions
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_users__apply_commission_restrictions
 msgid "Apply Restrictions"
-msgstr "Aplicar Restrições"
+msgstr "Einschränkungen anwenden"
 
 #. module: sale_commission_product_criteria_domain
 #. odoo-python
 #: code:addons/sale_commission_product_criteria_domain/models/commission.py:0
 #, python-format
 msgid "At least one group for each restriction must be selected."
-msgstr "Pelo menos um grupo para cada restrição deve ser selecionado."
+msgstr "Für jede Einschränkung muss mindestens eine Gruppe ausgewählt werden."
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_commission
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item__commission_id
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__commission_ids
 msgid "Commission"
-msgstr "Comissão"
+msgstr "Provision"
 
 #. module: sale_commission_product_criteria_domain
 #. odoo-python
 #: code:addons/sale_commission_product_criteria_domain/models/commission_group.py:0
 #, python-format
 msgid "Commission Group Agents"
-msgstr "Vendedores do Grupo de Comissão"
+msgstr "Provisionsgruppe Provisionsempfänger"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_commission_item
 msgid "Commission Item"
-msgstr "Item de Comissão"
+msgstr "Provisionsposition"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_commission_item_agent
 msgid "Commission Item Agent"
-msgstr "Item de Comissão Vendedor"
+msgstr "Provisionsposition Provisionsempfänger"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_commission_items_group
 msgid "Commission Items Group"
-msgstr "Grupo de Itens de Comissão"
+msgstr "Provisionspositionengruppe"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_partner__commission_item_agent_ids
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_users__commission_item_agent_ids
 msgid "Commission Items Groups"
-msgstr "Grupos de itens de comissão"
+msgstr "Provisionspositionengruppen"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__group_ids
 msgid "Commission Items Groups Restrictions"
-msgstr "Restrições de Grupos de itens de comissão"
+msgstr "Einschränkungen für Provisionspositionsgruppen"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_partner__commission_type
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_res_users__commission_type
 msgid "Commission Type"
-msgstr "Tipo de Comissão"
+msgstr "Provisionstyp"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.actions.act_window,name:sale_commission_product_criteria_domain.commission_items_group_tree_action
 #: model:ir.ui.menu,name:sale_commission_product_criteria_domain.menu_commission_items_group
 msgid "Commission Type Items Groups"
-msgstr "Grupos de itens do tipo comissão"
+msgstr "Provisionstypen-Artikelgruppen"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.constraint,message:sale_commission_product_criteria_domain.constraint_commission_items_group_unique_cig_name
 msgid ""
 "Commission items group with such name already exists. Name must be unique."
 msgstr ""
-"Já existe um grupo de itens comissionados com esse nome. O nome deve ser "
-"único."
+"Eine Provisionsartikelgruppe mit diesem Namen existiert bereits. Der Name "
+"muss einzigartig sein."
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_res_partner
 msgid "Contact"
-msgstr "Contato"
+msgstr "Kontakt"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__create_uid
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__create_uid
 msgid "Created by"
-msgstr "Criado por"
+msgstr "Angelegt von"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__create_date
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__create_date
 msgid "Created on"
-msgstr "Criado em"
+msgstr "Erstellt am"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__display_name
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__display_name
 msgid "Display Name"
-msgstr "Nome de exibição"
+msgstr "Anzeigname"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item__group_id
 msgid "Group"
-msgstr "Grupo"
+msgstr "Gruppe"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__id
@@ -170,25 +171,25 @@ msgstr "ID"
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__item_ids
 msgid "Items"
-msgstr "Itens"
+msgstr "Artikel"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent____last_update
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group____last_update
 msgid "Last Modified on"
-msgstr "Última Modificação em"
+msgstr "Zuletzt bearbeitet am"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__write_uid
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__write_uid
 msgid "Last Updated by"
-msgstr "Última Atualização por"
+msgstr "Zuletzt geändert am"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__write_date
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__write_date
 msgid "Last Updated on"
-msgstr "Última Atualização em"
+msgstr "Zuletzt aktualisiert am"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model,name:sale_commission_product_criteria_domain.model_commission_line_mixin
@@ -196,29 +197,29 @@ msgid ""
 "Mixin model for having commission agent lines in any object inheriting from "
 "this one"
 msgstr ""
-"Modelo Mixin para incluir linhas de vendedores comissionados em qualquer "
-"objeto que herde deste"
+"Mixin-Modell für die Verwaltung von Provisionsempfänger-Positionen in "
+"beliebigen Objekten, die von diesem Modell erben"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_items_group__name
 msgid "Name"
-msgstr "Nome"
+msgstr "Bezeichnung"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item_agent__partner_id
 msgid "Partner"
-msgstr "Parceiro"
+msgstr "Kontakt"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields.selection,name:sale_commission_product_criteria_domain.selection__commission__commission_type__product_restricted
 msgid "Product criteria (with restrictions)"
-msgstr "Critérios do produto (com restrições)"
+msgstr "Produktkriterien (mit Einschränkungen)"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,help:sale_commission_product_criteria_domain.field_res_partner__allowed_commission_group_ids
 #: model:ir.model.fields,help:sale_commission_product_criteria_domain.field_res_users__allowed_commission_group_ids
 msgid "Related only to agents"
-msgstr "Relacionado apenas a vendedores"
+msgstr "Nur mit Provisionsempfängern verknüpft"
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,help:sale_commission_product_criteria_domain.field_commission__commission_type
@@ -230,17 +231,19 @@ msgid ""
 "* 'Fixed percentage': all commissions are computed with a fixed percentage. You can fill the percentage in the field \"Fixed percentage\".\n"
 "* 'By sections': percentage varies depending amount intervals. You can fill intervals and percentages in the section \"Rate definition\"."
 msgstr ""
-"Selecione o tipo de percentagem da comissão:\n"
-"* 'Percentagem fixa': todas as comissões são calculadas com uma percentagem "
-"fixa. Pode preencher a percentagem no campo \"Percentagem fixa\".\n"
-"* 'Por secções': a percentagem varia consoante os intervalos de valor. Pode "
-"preencher os intervalos e as percentagens na secção \"Definição da taxa\"."
+"Wählen Sie den Provisions-Prozenttyp aus:\n"
+"* 'Fester Prozentsatz': Alle Provisionen werden mit einem festen Prozentsatz "
+"berechnet. Den Prozentsatz können Sie im Feld \"Fester Prozentsatz\" "
+"eintragen.\n"
+"* 'Nach Abschnitten': Der Prozentsatz variiert je nach Betragsintervallen. "
+"Die Intervalle und Prozentsätze können Sie im Abschnitt "
+"\"Staffelfestlegung\" eintragen."
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission__commission_type
 #: model:ir.model.fields,field_description:sale_commission_product_criteria_domain.field_commission_item__sale_commission_type
 msgid "Type"
-msgstr "Tipo"
+msgstr "Typ"
 
 #. module: sale_commission_product_criteria_domain
 #. odoo-python
@@ -250,8 +253,8 @@ msgid ""
 "You can not delete this commission group since there is related to it "
 "commission items."
 msgstr ""
-"Você não pode excluir este grupo de comissões, pois existem itens de "
-"comissão relacionados a ele."
+"Sie können diese Provisionsgruppe nicht löschen, da ihr Provisionsartikel "
+"zugeordnet sind."
 
 #. module: sale_commission_product_criteria_domain
 #: model:ir.model.constraint,message:sale_commission_product_criteria_domain.constraint_commission_item_agent_commission_item_unique_agent
@@ -259,5 +262,5 @@ msgid ""
 "You can only add one time each agent into Commission Items Groups "
 "Restrictions table."
 msgstr ""
-"Você só pode adicionar cada vendedor uma vez na tabela de Restrições de "
-"Grupos de Itens de Comissão."
+"Jeden Provisionsempfänger können Sie nur einmal in die Tabelle "
+"\"Einschränkungen der Provisionsartikelgruppen\" eintragen."
